@@ -1,0 +1,52 @@
+{
+  "dates": {
+    "start": "t:2023-08-01T00:00:00-06:00 New_York",
+    "end": "t:2023-05-01T00:00:00-06:00 New_York"
+  },
+  "predictors": [
+    {
+      "id": "r:p:demo:r:2e2839d7-e38850fb Richmond, VA Humidity",
+      "dis": "Richmond, VA Humidity",
+      "column": "Richmond, VA Humidity",
+      "unit": "%RH"
+    },
+    {
+      "id": "r:p:demo:r:2e2839d7-07257200 Richmond, VA Temp",
+      "dis": "Richmond, VA Temp",
+      "column": "Richmond, VA Temp",
+      "unit": "°F"
+    }
+  ],
+  "targets": [
+    {
+      "id": "r:p:demo:r:2e2839d7-8b29a79f Headquarters ElecMeter-Main kW",
+      "dis": "Headquarters ElecMeter-Main kW",
+      "column": "Headquarters ElecMeter-Main kW",
+      "unit": "kW"
+    }
+  ],
+  "files": [
+    {
+      "filename": "Headquarters Targets.csv",
+      "contentType": "targets",
+      "start": "t:2022-07-01T00:00:00-06:00 New_York",
+      "end": "t:2024-07-01T00:00:00-06:00 New_York"
+    },
+    {
+      "filename": "Headquarters Predictors.csv",
+      "contentType": "predictors",
+      "start": "t:2022-07-01T00:00:00-06:00 New_York",
+      "end": "t:2024-07-01T00:00:00-06:00 New_York"
+    }
+  ],
+  "export_options": {
+    "interpolate": false,
+    "clean": false,
+    "rollup": false,
+    "warn": true,
+    "appendUnits": false,
+    "name": "Headquarters",
+    "removeNA": false,
+    "jsonVersion": "v3"
+  }
+}
