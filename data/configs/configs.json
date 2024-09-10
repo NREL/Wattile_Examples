@@ -18,19 +18,19 @@
  },
  "data_processing": {
    "feat_time": {
-    "month_of_year": ["sincos"],
+    "month_of_year": [],
     "day_of_week": ["binary_reg", "binary_fuzzy"],
-    "hour_of_day": ["sincos", "binary_reg", "binary_fuzzy"],
+    "hour_of_day": ["binary_reg", "binary_fuzzy"],
     "holidays": false
    },
    "resample": {
-    "bin_interval": "60min",
+    "bin_interval": "180min",
     "bin_closed": "left",
     "bin_label": "left"
    },
    "feat_stats": {
     "active": true,
-    "window_width": "60min"
+    "window_width": "180min"
    },
    "feat_timelag": {
     "lag_interval": "360min",
