@@ -12,7 +12,6 @@ mlflow = "^2.15.1"
 wattile = {path = "/Users/jsmith2/Code/@ic/Wattile", develop = true}
 toml = "^0.10.2"
 
-
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
