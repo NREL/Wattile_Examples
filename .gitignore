@@ -1,0 +1,18 @@
+# python/IDE artifacts
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+coverage/
+dist/
+
+# notebook artifacts
+Training_history.csv
+tests/fixtures/alfa_exp_dir/events.out.tfevents.*
+tests/fixtures/alfa_exp_dir/output.out
+Training_history.csv
+events.out.tfevents.*.*
+
+# mlflow artifacts
+mlruns/
+mlartifacts/
