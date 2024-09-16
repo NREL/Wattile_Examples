@@ -8,10 +8,8 @@ dist/
 
 # notebook artifacts
 Training_history.csv
-tests/fixtures/alfa_exp_dir/events.out.tfevents.*
-tests/fixtures/alfa_exp_dir/output.out
-Training_history.csv
-events.out.tfevents.*.*
+events.out.tfevents.*
+output.out
 
 # mlflow artifacts
 mlruns/
