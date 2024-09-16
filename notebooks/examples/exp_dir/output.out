@@ -1,12 +1,12 @@
-08/06/2024 03:54:26 - INFO     - PID: 49246
-08/06/2024 03:54:26 - INFO     - AlfaModel model created.Writing to /Users/jsmith2/Code/@ic/Wattile_examples/notebooks/examples/exp_dir.
-08/06/2024 03:57:35 - INFO     - Available train batch factors: [1, 2, 4, 5, 8, 10, 20, 23, 25, 40, 46, 50, 92, 100, 115, 184, 200, 230, 460, 575, 920, 1150, 2300, 4600]Requested number of batches per epoch - Train:                 26, val: 1Actual number of batches per epoch - Train:                 25, val: 1Number of data samples in each batch - Train: 184, val: 1150
-08/06/2024 03:57:35 - INFO     - A new lstm RNN model instantiated
-08/06/2024 03:57:36 - INFO     - Number of cores available: 10
-08/06/2024 03:57:36 - INFO     - Number of logical processors available: 10
-08/06/2024 03:57:36 - INFO     - Initial memory statistics (GB): {'total': 68.719476736, 'available': 8.151801856, 'percent': 88.1, 'used': 7.037648896, 'free': 2.082578432}
-08/06/2024 03:57:36 - INFO     - Starting to train the model for 100 epochs!
-08/06/2024 04:06:00 - INFO     - Epoch: 20 Iteration: 500. Train_loss: nan. val_loss: nan, LR: 0.001
-08/06/2024 04:14:22 - INFO     - Epoch: 40 Iteration: 1000. Train_loss: nan. val_loss: nan, LR: 0.001
-08/06/2024 04:22:44 - INFO     - Epoch: 60 Iteration: 1500. Train_loss: nan. val_loss: nan, LR: 0.001
-08/06/2024 04:31:06 - INFO     - Epoch: 80 Iteration: 2000. Train_loss: nan. val_loss: nan, LR: 0.001
+09/16/2024 11:46:11 - INFO     - PID: 47458
+09/16/2024 11:46:11 - INFO     - Trained with Wattile version: 0.2.0
+09/16/2024 11:46:11 - INFO     - AlfaModel model created.Writing to /Users/jsmith2/Code/@ic/Wattile_examples/notebooks/examples/exp_dir.
+09/16/2024 11:46:11 - INFO     - Available train batch factors: [1, 3, 5, 9, 15, 45, 311, 933, 1555, 2799, 4665, 13995]Requested number of batches per epoch - Train:                 26, val: 1Actual number of batches per epoch - Train:                 15, val: 1Number of data samples in each batch - Train: 933, val: 3499
+09/16/2024 11:46:11 - INFO     - A new lstm RNN model instantiated
+09/16/2024 11:46:12 - INFO     - Number of cores available: 10
+09/16/2024 11:46:12 - INFO     - Number of logical processors available: 10
+09/16/2024 11:46:12 - INFO     - Initial memory statistics (GB): {'total': 68.719476736, 'available': 30.9293056, 'percent': 55.0, 'used': 35.29007104, 'free': 0.9486336}
+09/16/2024 11:46:12 - INFO     - Starting to train the model for 100 epochs!
+09/16/2024 11:46:25 - INFO     - Epoch: 34 Iteration: 500. Train_loss: 0.012731033377349377. val_loss: 0.01292749711248171, LR: 0.001
+09/16/2024 11:46:39 - INFO     - Epoch: 67 Iteration: 1000. Train_loss: 0.012249859981238842. val_loss: 0.012823992430473996, LR: 0.001
+09/16/2024 11:46:53 - INFO     - Epoch: 100 Iteration: 1500. Train_loss: 0.012963131070137024. val_loss: 0.012766056221486657, LR: 0.001

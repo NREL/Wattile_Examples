@@ -37,9 +37,9 @@
     "lag_count": 8
    },
    "input_output_window": {
-    "window_width_source": "180min",
+    "window_width_source": "60min",
     "window_width_futurecast":"0min",
-    "window_width_target": "45min"
+    "window_width_target": "60min"
    },
    "random_seed": 382,
    "sequential_splicer": {
