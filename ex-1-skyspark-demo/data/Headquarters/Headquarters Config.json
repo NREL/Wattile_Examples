@@ -1,0 +1,71 @@
+{
+  "dates": {
+    "start": "t:2022-07-01T00:00:00-06:00 Denver",
+    "end": "t:2024-07-01T00:00:00-06:00 Denver"
+  },
+  "predictors": [
+    {
+      "id": "r:p:demo:r:2e2839d7-e38850fb Richmond, VA Humidity",
+      "dis": "Richmond, VA Humidity",
+      "column": "Richmond, VA Humidity",
+      "unit": "%RH"
+    },
+    {
+      "id": "r:p:demo:r:2e2839d7-07257200 Richmond, VA Temp",
+      "dis": "Richmond, VA Temp",
+      "column": "Richmond, VA Temp",
+      "unit": "°F"
+    }
+  ],
+  "targets": [
+    {
+      "id": "r:p:demo:r:2e2839d7-8b29a79f Headquarters ElecMeter-Main kW",
+      "dis": "Headquarters ElecMeter-Main kW",
+      "column": "Headquarters ElecMeter-Main kW",
+      "unit": "kW"
+    },
+    {
+      "id": "r:p:demo:r:2e2839d7-57ad0c11 Headquarters ElecMeter-Main kWh",
+      "dis": "Headquarters ElecMeter-Main kWh",
+      "column": "Headquarters ElecMeter-Main kWh",
+      "unit": "kWh"
+    },
+    {
+      "id": "r:p:demo:r:2e2839d7-3fc9f122 Headquarters GasMeter-Main Consumption",
+      "dis": "Headquarters GasMeter-Main Consumption",
+      "column": "Headquarters GasMeter-Main Consumption",
+      "unit": "Ccf"
+    },
+    {
+      "id": "r:p:demo:r:2e2839d7-2c565f14 Headquarters WaterMeter-Main Consumption",
+      "dis": "Headquarters WaterMeter-Main Consumption",
+      "column": "Headquarters WaterMeter-Main Consumption",
+      "unit": "gal"
+    }
+  ],
+  "files": [
+    {
+      "filename": "Headquarters Targets.csv",
+      "contentType": "targets",
+      "start": "t:2022-07-01T00:00:00-06:00 Denver",
+      "end": "t:2024-07-01T00:00:00-06:00 Denver"
+    },
+    {
+      "filename": "Headquarters Predictors.csv",
+      "contentType": "predictors",
+      "start": "t:2022-07-01T00:00:00-06:00 Denver",
+      "end": "t:2024-07-01T00:00:00-06:00 Denver"
+    }
+  ],
+  "export_options": {
+    "interpolate": true,
+    "clean": false,
+    "rollup": false,
+    "warn": true,
+    "appendUnits": false,
+    "name": "Headquarters",
+    "removeNA": false,
+    "jsonVersion": "v3",
+    "interval": "n:15 min"
+  }
+}
