@@ -21,7 +21,4 @@ This repository contains a collection of notebooks and models utilizing [Wattile
         - train
 
 
-## Models/Notebooks
-...
-
 

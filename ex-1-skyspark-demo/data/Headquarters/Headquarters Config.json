@@ -23,24 +23,6 @@
       "dis": "Headquarters ElecMeter-Main kW",
       "column": "Headquarters ElecMeter-Main kW",
       "unit": "kW"
-    },
-    {
-      "id": "r:p:demo:r:2e2839d7-57ad0c11 Headquarters ElecMeter-Main kWh",
-      "dis": "Headquarters ElecMeter-Main kWh",
-      "column": "Headquarters ElecMeter-Main kWh",
-      "unit": "kWh"
-    },
-    {
-      "id": "r:p:demo:r:2e2839d7-3fc9f122 Headquarters GasMeter-Main Consumption",
-      "dis": "Headquarters GasMeter-Main Consumption",
-      "column": "Headquarters GasMeter-Main Consumption",
-      "unit": "Ccf"
-    },
-    {
-      "id": "r:p:demo:r:2e2839d7-2c565f14 Headquarters WaterMeter-Main Consumption",
-      "dis": "Headquarters WaterMeter-Main Consumption",
-      "column": "Headquarters WaterMeter-Main Consumption",
-      "unit": "gal"
     }
   ],
   "files": [
