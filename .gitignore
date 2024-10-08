@@ -1,0 +1,23 @@
+# python/IDE artifacts
+.idea/
+.ipynb_checkpoints/
+.DS_Store
+__pycache__/
+coverage/
+dist/
+
+# notebook artifacts
+Training_history.csv
+events.out.tfevents.*
+output.out
+QQ_data.h5
+error_stats_train.json
+internal_test.h5
+mask.h5
+measured.h5
+mid_train_error_stats.h5
+residual_distribution.h5
+
+# mlflow artifacts
+mlruns/
+mlartifacts/
